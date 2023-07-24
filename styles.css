@@ -1,0 +1,74 @@
+body {
+  background-image: url('M4-desafio1-fondo.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  
+  
+
+}
+
+
+.contenedor {
+  text-align: center;
+  padding: 40px;
+  background-image: url('M4-desafio1-fondo-form.png');
+  background-color: #ffffff;
+}
+
+.login-form {
+  text-align: center;
+  width: 600px;
+  height: 400px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.login-form h2 {
+  text-align: center;
+  color: #04146c;
+  font-size: 24.48pt;
+  font-family: 'Mulish';
+}
+
+
+
+input[type="text"],
+input[type="password"] {
+  width: 500px;
+  height: 50px;
+  font-family: 'Mulish';
+  font-size: 17pt;
+  border: 1px solid #414166;
+  border-radius: 3px;
+  margin-bottom: 10px;
+
+}
+
+button.btn-primary {
+  display: block;
+  width: 500px;
+  padding: 10px;
+  background-color: #15163d;
+  color: #fff;
+  font-family: 'Mulish';
+  font-size: 17pt;
+  text-align: center;
+  margin: auto; 
+}
+
+
+button.btn-primary:hover {
+  background-color: #286090;
+}
+
+
+p {
+  text-align: center;
+}
+
+p a {
+  color: #337ab7;
+}
